@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/lg1"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginBottom="304dp"
+        android:text="logout"
+        android:textColor="@color/white"
+        app:backgroundTint="#292b30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/db"
+        app:shapeAppearanceOverlay="@style/Button5"
+        app:strokeColor="#76777a"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/rn"
+        android:layout_width="152dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="268dp"
+        android:layout_marginBottom="31dp"
+        android:text="Recent Notifications"
+        android:textColor="@color/white"
+        app:backgroundTint="#292b30"
+        app:layout_constraintBottom_toTopOf="@+id/db"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/Button5"
+        app:strokeColor="#76777a"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/db"
+        android:layout_width="151dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="33dp"
+        android:text="RESOURCES
+"
+        android:textColor="@color/white"
+        app:backgroundTint="#292b30"
+        app:layout_constraintBottom_toTopOf="@+id/lg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rn"
+        app:shapeAppearanceOverlay="@style/Button5"
+        app:strokeColor="#76777a"
+        app:strokeWidth="1dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="134dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="76dp"
+        android:text="Student Panel"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EDU ALERT SYSTEM</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+</resources>
