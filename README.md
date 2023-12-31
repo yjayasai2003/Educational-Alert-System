@@ -22,7 +22,7 @@ Java: Core programming language for Android development.
 
 Firebase: Backend service for user authentication, real-time database, and storage for uploaded materials.
 
-                                                              Getting Started
+                                              Getting Started
                                                           
 To run the app locally, follow these steps:
 
